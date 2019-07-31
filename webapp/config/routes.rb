@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   # root 'posts#index'
 
   # get 'about' => 'pages#about'
+
+  root to: 'home#home'
 end
